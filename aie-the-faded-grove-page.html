@@ -1,0 +1,438 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>AIE - The Faded Grove</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<style>
+			* {box-sizing: border-box}
+			body {font-family: Verdana, sans-serif; margin:0}
+			.mySlides {display: none}
+			img {vertical-align: middle;}
+
+			/* Slideshow container */
+			.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			background-color: black;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			background-color: white;
+			color: grey;
+			}
+
+			/* Caption text */
+			.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 8px 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			from {opacity: .4}
+			to {opacity: 1}
+			}
+
+			@keyframes fade {
+			from {opacity: .4}
+			to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			.prev, .next,.text {font-size: 11px}
+			}
+		</style>
+	</head>
+
+	<body class="is-preload">
+		
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Main -->
+			<div id="main">
+				<div class="inner">
+
+					<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Alexis Serna</strong> - Game Programmer Portfolio</a>
+						<ul class="icons">
+							<li><a href="mailto: 7319aserna@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Envelope</span></a></li>
+							<li><a href="https://github.com/ASGitH" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/alexisserna/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://twitter.com/ASGDTweet" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+						</ul>
+					</header>
+
+					<!-- Content -->
+					<section>
+						<header class="main">
+							<h1>The Faded Grove</h1>
+						</header>
+
+						<iframe width="100%" height="534" src="https://www.youtube.com/embed/2J8esEJj5T4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+						<p>The <b>final project</b> I have gotten to work on from my enrollment at the <b>Academy of Interactive Entertainment</b>. What a journey it has been, and getting the chance to work with a lovely group of people. My role for this project was as a <b>Audio/Game Programmer</b>. The main tasks for this role were handling logic to <b>handle the player (animator control, health, movement, etc.), to audio logic for the player, ceratin elements of the overall game, and some logic into a puzzle or two</b>.</p>
+						<p><b>On a more personal note</b>, when just starting out at AIE, I had <b>almost no knowledge in coding/programming</b>. It was gonna be an uphill battle from the start, there were times where I was near the edge of <b>failing the course</b>. But, if there is one thing learned from my enrollment at AIE, is that <b>I have what it takes</b>. Graduating from AIE and comparing how I started, and to see myself come so far, makes me feel proud of myself. To where the future takes me, I'm not sure, but <b>whatever life throws at me, I know I can succeed</b>!</p>
+
+						<hr class="major">
+
+						<header class="major">
+							<h2>Contributions</h2>
+						</header>
+						
+						<!-- Section -->
+						<section id="one" class="main style1">
+							<div class="container">
+								<div class="row gtr-150">
+									<div class="col-6 col-12-medium imp-medium">
+										<!-- Video -->
+										<video style="width:100%;" height="100%" controls loop>
+											<source src="videos/aie/the-faded-grove-01.mp4" type="video/mp4">
+										</video>
+									</div>
+									<div class="col-6 col-12-medium">
+										<b>Audio/Music</b>
+										<ul>
+											<li>Custom audio logic with different functions, stop all audio attached to the script, play at different delays, play a selected clip, loop through a list of clips, or play a clip in a list on a case-by-case basis.</li>
+											<p></p>
+											<p>Examples</p> 
+											<li>Gaining/Losing health</li>
+											<li>Menu audio, clicking/hovering over options</li>
+											<li>Player attacking, movement, taking damage, and triggering after certain dialogue has occured</li> 
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Section -->
+						<section id="two" class="main style1">
+							<div class="container">
+								<div class="row gtr-150">
+									<div class="col-6 col-12-medium imp-medium">
+										<!-- Video -->
+										<video style="width:100%;" height="100%" controls loop>
+											<source src="videos/aie/the-faded-grove-02.mp4" type="video/mp4">
+										</video>
+									</div>
+									<div class="col-6 col-12-medium">
+										<b>Player</b>
+										<ul>
+											<li>Logic to handle health system, player controller and animator controller.</li>
+											<p></p>
+											<p>Examples</p> 
+											<li>When the player has full health, taken damage, when to apply invincibility, and when to remove that as well.</li>
+											<li>How the player moves around in the scene, and when they interact with the pulling/push object.</li>
+											<li>Handling the animation states, when the player attacks, moves, pulls/pushes, and have taken damage.</li> 
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Section -->
+						<section id="one" class="main style1">
+							<div class="container">
+								<div class="row gtr-150">
+									<div class="col-6 col-12-medium imp-medium">
+										<!-- Video -->
+										<video style="width:100%;" height="100%" controls loop>
+											<source src="videos/aie/the-faded-grove-03.mp4" type="video/mp4">
+										</video>
+									</div>
+									<div class="col-6 col-12-medium">
+										<b>Puzzle Mechanic (Pull/Push Block)</b>
+										<ul>
+											<li>Detecting based on which side the player is next to the block, and when the player is also facing the block, when they begin to pull/push, the block will move in the correct direction.</li>
+											<li>Accounting for the player to correcting the position/rotation to make sure when they begin to pull/push, their original positioning does not interfere with being able to complete the puzzle.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<hr class="major" />
+
+						<header class="major">
+							<h2>More Information</h2>
+						</header>
+
+						<h3>Credits</h3>
+
+						<p>Alexis Serna - <b>Gameplay & Sound Programmer</b></p>
+						<p>Audrey Meyer - <b>Art Director, Rigger, Environment & Character FX artist</b></p>
+						<ul>
+							<li><a href="https://www.artstation.com/ochopika">ArtStation - Audrey Meyer</a></li>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/audrey-meyer-162433120"> Audrey Meyer</a></li>
+						</ul>
+						<p>Elli-Aliisa Viljamaa - <b>Character & Concept Artist, Rigger, Animator</b></p>
+						<ul>
+							<li><a href="https://jellielli.artstation.com/">ArtStation - Elli-Aliisa Viljamaa</a></li>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/elli-viljamaa"> Elli-Aliisa Viljamaa</a></li>
+						</ul>
+						<p>Erika Amos - <b>Character & Concept Artist</b></p>
+						<ul>
+							<li><a href="https://www.artstation.com/erikaamos">ArtStation - Erika Amos</a></li>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/erikaamosdesign"> Erika Amos</a></li>
+						</ul>
+						<p>Joshua Livingston - <b>Level & Gameplay Desinger</b></p>
+						<ul>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/josh-livingston"> Josh Livingston</a></li>
+						</ul>
+						<p>Joshua Yang - <b>Gameplay Systems Engineer, Build Engineer</b></p>
+						<ul>
+							<li class="icon brands style2 fa-github"><a href="https://github.com/joshy409"> joshy409</a></li>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/joshy409"> Joshua B Yang</a></li>
+						</ul>
+						<p>Kylie Walker - <b>UX/UI Artist, Marketing Artist</b></p>
+						<ul>
+							<li><a href="https://kwalker_visuals.artstation.com">ArtStation - Kylie Walker</a></li>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/kylie-walker"> Kylie Walker</a></li>
+							<li class="icon brands style2 fa-twitter"><a href="https://twitter.com/kwalker_visuals"> kwalker_visuals</a></li>
+						</ul>
+						<p>Marcel Dao - <b>AI Programming, FX</b></p>
+						<ul>
+							<li class="icon brands style2 fa-github"><a href="https://github.com/diammen"> diammen</a></li>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/marceldao"> Marcel Dao</a></li>
+						</ul>
+						<p>Travis Benton - <b>Character & Concept Artist, Rigger, Animator</b></p>
+						<ul>
+							<li><a href="https://tbenton.artstation.com">ArtStation - Travis Benton</a></li>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/travisbenton"> Travis Benton</a></li>
+							<li class="icon brands style2 fa-twitter"><a href="https://twitter.com/travisb_who"> travisb_who</a></li>
+						</ul>
+						<p>Xan Farley - <b>Producer, Narrative Designer</b></p>
+						<ul>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/xan-farley-monolilith"> Xan Farley</a></li>
+							<li class="icon brands style2 fa-twitter"><a href="https://twitter.com/Lilithish"> Lilithish</a></li>
+						</ul>
+
+						<h3>Disclaimer</h3>
+
+						<p>All images/videos provided were not taken by myself, other group members were responsible for the media provided.</p>
+
+						<h3>Download</h3>
+
+						<p>To download, head to the itch.io link provided below</p>
+
+						<h3>itch.io Link</h3>
+						<p><a href="https://aieseattle.itch.io/fadedgrove">https://aieseattle.itch.io/fadedgrove</a></p>
+
+						<hr class="major" />
+
+						<header class="major">
+							<h2>Screenshots</h2>
+						</header>
+
+						<!-- Section -->
+						<section>
+							<div class="slideshow-container">
+
+							<div class="mySlides fade">
+								<img src="https://img.itch.zone/aW1hZ2UvNTcyMTA1LzM3NDgxNzEucG5n/794x1000/T3WCz9.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="https://img.itch.zone/aW1nLzM3MDM5MjcuZ2lm/original/HbEohy.gif" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="https://img.itch.zone/aW1hZ2UvNTcyMTA1LzM3MDM4NDkucG5n/794x1000/nSi6sB.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+							
+							<div class="mySlides fade">
+								<img src="https://img.itch.zone/aW1nLzM1NzMwNjAuZ2lm/original/Mgv27Y.gif" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="https://img.itch.zone/aW1hZ2UvNTcyMTA1LzM3MDM4NTEucG5n/794x1000/HX1Ccs.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="https://img.itch.zone/aW1hZ2UvNTcyMTA1LzM3MDM4NTAucG5n/794x1000/7rsdWL.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+							<div style="text-align:center">
+								<span class="dot" onclick="currentSlide(1)"></span>
+								<span class="dot" onclick="currentSlide(2)"></span>
+								<span class="dot" onclick="currentSlide(3)"></span>
+								<span class="dot" onclick="currentSlide(4)"></span>
+								<span class="dot" onclick="currentSlide(5)"></span>
+								<span class="dot" onclick="currentSlide(6)"></span>
+							</div>
+
+							<script>
+							var slideIndex = 1;
+							showSlides(slideIndex);
+
+							function plusSlides(n) {
+								showSlides(slideIndex += n);
+							}
+
+							function currentSlide(n) {
+								showSlides(slideIndex = n);
+							}
+
+							function showSlides(n) {
+								var i;
+								var slides = document.getElementsByClassName("mySlides");
+								var dots = document.getElementsByClassName("dot");
+								if (n > slides.length) {slideIndex = 1}
+								if (n < 1) {slideIndex = slides.length}
+								for (i = 0; i < slides.length; i++) {
+									slides[i].style.display = "none";
+								}
+								for (i = 0; i < dots.length; i++) {
+									dots[i].className = dots[i].className.replace(" active", "");
+								}
+								slides[slideIndex-1].style.display = "block";
+								dots[slideIndex-1].className += " active";
+							}
+							</script>
+						</section>
+					</section>
+
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div id="sidebar"> 
+				<div class="inner">
+					
+					<ul class="actions special">
+						<li><a href="index.html" class="button large">Home</a></li>
+					</ul>
+
+					<!-- Section -->
+					<section>
+						<header class="major">
+							<h2>Projects</h2>
+						</header>
+						<div class="mini-posts">
+							<h2><li><a href="aie-main-page.html">AIE</a></li></h2>
+							<h2><li><a href="game-boy-main-page.html">Game Boy</a></li></h2>
+							<h2><li><a href="unity-main-page.html">Unity</a></li></h2>
+						</div>
+					</section>
+
+					<!-- Menu -->
+					<nav id="menu">
+						<header class="major">
+							<h2>Social Media</h2>
+						</header>
+						<ul>
+							<li>
+								<span class="opener">LinkedIn</span>
+								<ul>
+									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6801676007368724480" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
+									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6801319919955804160" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
+									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6799132358747521024" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
+								</ul>
+							</li>
+							<li>
+								<span class="opener">Twitter</span>
+								<ul>
+									<a class="twitter-timeline" data-width="275" data-height="400" href="https://twitter.com/ASGDTweet?ref_src=twsrc%5Etfw">Tweets by ASGDTweet</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+
+					<!-- Section -->
+					<section>
+						<header class="major">
+							<h2>Get in Touch</h2>
+						</header>
+						<p>I'm always looking for any opportunities. Whether that would be a job in the video game industry to happily meeting and connecting with new people. Feel free to reach me and I would gladly answer. Thank you, I am very happy and excited to hear from ya!</p>
+						<ul class="contact">
+							<li class="icon solid style2 fa-envelope"><a href="mailto: 7319aserna@gmail.com">7319aserna@gmail.com</a></li>
+							<li class="icon brands style2 fa-github"><a href="https://github.com/ASGitH">ASGitH</a></li>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/alexisserna/">Alexis Serna</a></li>
+							<li class="icon brands style2 fa-twitter"><a href="https://twitter.com/ASGDTweet">ASGDTweet</a></li>
+						</ul>
+						<p>Plus, if you would like to support me in my endevours...</p>
+						<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="alexisserna" data-color="#FF5F5F" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+					</section>
+				</div>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

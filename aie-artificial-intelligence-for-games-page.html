@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>AIE - Artificial Intelligence for Games</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<style>
+			* {box-sizing: border-box}
+			body {font-family: Verdana, sans-serif; margin:0}
+			.mySlides {display: none}
+			img {vertical-align: middle;}
+
+			/* Slideshow container */
+			.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			background-color: black;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			background-color: white;
+			color: grey;
+			}
+
+			/* Caption text */
+			.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 8px 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			from {opacity: .4}
+			to {opacity: 1}
+			}
+
+			@keyframes fade {
+			from {opacity: .4}
+			to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			.prev, .next,.text {font-size: 11px}
+			}
+		</style>
+	</head>
+
+	<body class="is-preload">
+		
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Main -->
+			<div id="main">
+				<div class="inner">
+
+					<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Alexis Serna</strong> - Game Programmer Portfolio</a>
+						<ul class="icons">
+							<li><a href="mailto: 7319aserna@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Envelope</span></a></li>
+							<li><a href="https://github.com/ASGitH" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/alexisserna/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://twitter.com/ASGDTweet" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+						</ul>
+					</header>
+
+					<!-- Content -->
+					<section>
+						<header class="main">
+							<h1>Artificial Intelligence for Games</h1>
+						</header>
+
+						<!--                            controls (here below) v -->
+						<video style="width:100%;" height="100%" autoplay muted loop>
+							<source src="videos/aie/artificial-intelligence-for-games.mp4" type="video/mp4">
+						</video>
+
+						<p>A video game development concept I was always curious/wanting to learn more about was <b>artificial intelligence</b>. I've have never gotten the chance to mess with artificial intelligence before, and having gone through the process of <b>creating instances of agents</b>, who can <b>flee/pursue/or wander</b>. There is still much more to learn, and is something that I would <b>love to work on more in the future</b>.</p>
+
+						<hr class="major">
+
+						<header class="major">
+							<h2>Recent Updates</h2>
+						</header>
+						
+						<!-- Section -->
+						<section id="one" class="main style1">
+							<div class="container">
+								<div class="row gtr-150">
+									<div class="col-6 col-12-medium imp-medium">
+										<!-- Image -->
+										<img src="images/aie/artificial-intelligence-for-games.png" style="width:100%">
+										<img src="images/aie/artificial-intelligence-for-games-01.png" style="width:100%">
+									</div>
+									<div class="col-6 col-12-medium">
+										<span class="date"><b>May 23rd, 2019</b></span>
+										<ul>
+											<li>Implemented an instance of pathfinding that will a raycast a point (red node) selected based on the mouse cursor.</li>
+											<li>Once a point has been chosen, this would create nodes around the object until a node reaches the selected target.</li>
+											<li>Afterwards, the node closest to the object would go through and figure out which node next to it, is the closest to the target.</li>
+											<li>The next node chosen would repeat the process while recording each node selected before, onto a list to be the path the object follows afterwards (nodes highlighted in blue).</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Section -->
+						<section id="two" class="main style1">
+							<div class="container">
+								<div class="row gtr-150">
+									<div class="col-6 col-12-medium imp-medium">
+										<!-- Video -->
+										<video style="width:100%;" height="100%" muted controls loop>
+											<source src="videos/aie/artificial-intelligence-for-games-01.mp4" type="video/mp4">
+										</video>
+									</div>
+									<div class="col-6 col-12-medium">
+										<span class="date"><b>May 20th, 2019</b></span>
+										<ul>
+											<li>An AI agent created can have different steering behaviors (flee/pursue/wander).</li>
+											<li>The flee and pursue agents can flee/pursue the pathfinding AI, or eachother.</li>
+											<li>These steering behaviors (expect the wandering behavior), would only be activated when the target is in the area.</li>
+											<li>If the target is not in the area, the agents would default back to their wandering behavior.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<hr class="major" />
+
+						<header class="major">
+							<h2>More Information</h2>
+						</header>
+
+						<h3>Download</h3>
+
+						<p>artificial-intelligence-for-games.zip <b>22.0 MB</b></p>
+
+						<ul class="actions">
+							<li><a href="https://github.com/ASGitH/aie-Artificial-Intelligence-For-Games/releases/download/build-00/artificial-intelligence-for-games.zip" class="button">Download</a></li>
+						</ul>
+
+						<h3>Installation Instructions</h3>
+						<p>Download the .zip folder and <b>extract it. Launch the executable</b> (.exe).</p>
+
+						<h3>Repository Link</h3>
+						<p><a href="https://github.com/ASGitH/aie-Artificial-Intelligence-For-Games">https://github.com/ASGitH/aie-Artificial-Intelligence-For-Games</a></p>
+
+						<h3>Tools Used</h3>
+						<p>Game Engine - <a href="https://unity.com">Unity Game Engine</a></p>
+
+						<hr class="major" />
+
+						<header class="major">
+							<h2>Screenshots</h2>
+						</header>
+
+						<!-- Section -->
+						<section>
+							<div class="slideshow-container">
+
+							<div class="mySlides fade">
+								<img src="images/aie/artificial-intelligence-for-games.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="images/aie/artificial-intelligence-for-games-01.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+							
+							<div class="mySlides fade">
+								<img src="images/aie/artificial-intelligence-for-games-02.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="images/aie/artificial-intelligence-for-games-03.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+							<div style="text-align:center">
+								<span class="dot" onclick="currentSlide(1)"></span>
+								<span class="dot" onclick="currentSlide(2)"></span>
+								<span class="dot" onclick="currentSlide(3)"></span>
+								<span class="dot" onclick="currentSlide(4)"></span>
+							</div>
+
+							<script>
+							var slideIndex = 1;
+							showSlides(slideIndex);
+
+							function plusSlides(n) {
+								showSlides(slideIndex += n);
+							}
+
+							function currentSlide(n) {
+								showSlides(slideIndex = n);
+							}
+
+							function showSlides(n) {
+								var i;
+								var slides = document.getElementsByClassName("mySlides");
+								var dots = document.getElementsByClassName("dot");
+								if (n > slides.length) {slideIndex = 1}
+								if (n < 1) {slideIndex = slides.length}
+								for (i = 0; i < slides.length; i++) {
+									slides[i].style.display = "none";
+								}
+								for (i = 0; i < dots.length; i++) {
+									dots[i].className = dots[i].className.replace(" active", "");
+								}
+								slides[slideIndex-1].style.display = "block";
+								dots[slideIndex-1].className += " active";
+							}
+							</script>
+						</section>
+
+						<hr class="major" />
+
+						<header class="major">
+							<h2>History</h2>
+						</header>
+
+						<span class="date"><b>May 23rd, 2019</b></span>
+						<ul>
+							<li>Implemented an instance of pathfinding that will a raycast a point (red node) selected based on the mouse cursor.</li>
+							<li>Once a point has been chosen, this would create nodes around the object until a node reaches the selected target.</li>
+							<li>Afterwards, the node closest to the object would go through and figure out which node next to it, is the closest to the target.</li>
+							<li>The next node chosen would repeat the process while recording each node selected before, onto a list to be the path the object follows afterwards (nodes highlighted in blue).</li>
+						</ul>
+						
+						<span class="date"><b>May 20th, 2019</b></span>
+						<ul>
+							<li>An AI agent created can have different steering behaviors (flee/pursue/wander).</li>
+							<li>The flee and pursue agents can flee/pursue the pathfinding AI, or eachother.</li>
+							<li>These steering behaviors (expect the wandering behavior), would only be activated when the target is in the area.</li>
+							<li>If the target is not in the area, the agents would default back to their wandering behavior.</li>
+						</ul>
+
+					</section>
+
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div id="sidebar"> 
+				<div class="inner">
+					
+					<ul class="actions special">
+						<li><a href="index.html" class="button large">Home</a></li>
+					</ul>
+
+					<!-- Section -->
+					<section>
+						<header class="major">
+							<h2>Projects</h2>
+						</header>
+						<div class="mini-posts">
+							<h2><li><a href="aie-main-page.html">AIE</a></li></h2>
+							<h2><li><a href="game-boy-main-page.html">Game Boy</a></li></h2>
+							<h2><li><a href="unity-main-page.html">Unity</a></li></h2>
+						</div>
+					</section>
+
+					<!-- Menu -->
+					<nav id="menu">
+						<header class="major">
+							<h2>Social Media</h2>
+						</header>
+						<ul>
+							<li>
+								<span class="opener">LinkedIn</span>
+								<ul>
+									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6801676007368724480" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
+									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6801319919955804160" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
+									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6799132358747521024" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
+								</ul>
+							</li>
+							<li>
+								<span class="opener">Twitter</span>
+								<ul>
+									<a class="twitter-timeline" data-width="275" data-height="400" href="https://twitter.com/ASGDTweet?ref_src=twsrc%5Etfw">Tweets by ASGDTweet</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+
+					<!-- Section -->
+					<section>
+						<header class="major">
+							<h2>Get in Touch</h2>
+						</header>
+						<p>I'm always looking for any opportunities. Whether that would be a job in the video game industry to happily meeting and connecting with new people. Feel free to reach me and I would gladly answer. Thank you, I am very happy and excited to hear from ya!</p>
+						<ul class="contact">
+							<li class="icon solid style2 fa-envelope"><a href="mailto: 7319aserna@gmail.com">7319aserna@gmail.com</a></li>
+							<li class="icon brands style2 fa-github"><a href="https://github.com/ASGitH">ASGitH</a></li>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/alexisserna/">Alexis Serna</a></li>
+							<li class="icon brands style2 fa-twitter"><a href="https://twitter.com/ASGDTweet">ASGDTweet</a></li>
+						</ul>
+						<p>Plus, if you would like to support me in my endevours...</p>
+						<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="alexisserna" data-color="#FF5F5F" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+					</section>
+				</div>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>AIE - Complex Game Systems</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<style>
+			* {box-sizing: border-box}
+			body {font-family: Verdana, sans-serif; margin:0}
+			.mySlides {display: none}
+			img {vertical-align: middle;}
+
+			/* Slideshow container */
+			.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			background-color: black;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			background-color: white;
+			color: grey;
+			}
+
+			/* Caption text */
+			.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 8px 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			from {opacity: .4}
+			to {opacity: 1}
+			}
+
+			@keyframes fade {
+			from {opacity: .4}
+			to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			.prev, .next,.text {font-size: 11px}
+			}
+		</style>
+	</head>
+
+	<body class="is-preload">
+		
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Main -->
+			<div id="main">
+				<div class="inner">
+
+					<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Alexis Serna</strong> - Game Programmer Portfolio</a>
+						<ul class="icons">
+							<li><a href="mailto: 7319aserna@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Envelope</span></a></li>
+							<li><a href="https://github.com/ASGitH" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/alexisserna/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://twitter.com/ASGDTweet" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+						</ul>
+					</header>
+
+					<!-- Content -->
+					<section>
+						<header class="main">
+							<h1>Complex Game Systems</h1>
+						</header>
+
+						<!--                             controls (here below) v -->
+						<video style="width:100%;" height="100%" autoplay muted loop>
+							<source src="videos/aie/complex-game-systems.mp4" type="video/mp4">
+						</video>
+
+						<p>Everything created, I am very proud of. Whether that would be something minimal, to the more complex and thought out of, it's something I love very much. The way of <b>thinking for me is not straightforward</b>. Creations tend to <b>make themselves more complicated</b>, ending up with something very complex. Sure, there may be an <b>easier method of handling it</b>, but to me, the <b>easier method seems to be the more complex one</b>. With this project, our goal was to create a <b>complex system and implement it into a game</b>. I decided to create a <b>random procedurally generated dungeon crawler</b>, or more of <b>an attempt</b>.</p>
+
+						<hr class="major">
+
+						<header class="major">
+							<h2>Recent Updates</h2>
+						</header>
+						
+						<!-- Section -->
+						<section id="one" class="main style1">
+							<div class="container">
+								<div class="row gtr-150">
+									<div class="col-6 col-12-medium imp-medium">
+										<!-- Image -->
+										<img src="images/aie/complex-game-systems-01.png" style="width:100%">
+										<img src="images/aie/complex-game-systems-02.png" style="width:100%">
+									</div>
+									<div class="col-6 col-12-medium">
+										<span class="date"><b>Janurary 10th, 2020</b></span>
+										<ul>
+											<li>The last update before I decided to take a different approach to the random procedurally generated floor/room.</li>
+											<li>Way things worked before was that the dungeon rooms were created by hand, then when the game began, a floor was created with different rooms placed into it.</li>
+											<li>For testing purposes, you could select the size of a floor, and if the current room you were in had another room next to it, touching this arrow would send you to the next room.</li>
+											<p></p>
+											<li>My new plan of approach would be to randomly create a room from scratch. From the room itself (each individual tile in a room), to the floor with all newly created rooms, would not only improve the quality of the game itself, but show the aspect of a complex game system.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Section -->
+						<section id="two" class="main style1">
+							<div class="container">
+								<div class="row gtr-150">
+									<div class="col-6 col-12-medium imp-medium">
+										<!-- Video -->
+										<video style="width:100%;" height="100%" muted controls loop>
+											<source src="videos/aie/complex-game-systems-01.mp4" type="video/mp4">
+										</video>
+									</div>
+									<div class="col-6 col-12-medium">
+										<span class="date"><b>December 18th, 2019</b></span>
+										<ul>
+											<li>Logic for the background to be scrolled has been implemented.</li>
+											<li>The way it works is once the player has reached a certain distance on any edge of the screen, the game would check to see if there is anything else ahead of it.</li>
+											<li>If so, the game would scroll the next set of background sprites to display, while removing the previous ones behind them.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Section -->
+						<section id="one" class="main style1">
+							<div class="container">
+								<div class="row gtr-150">
+									<div class="col-6 col-12-medium imp-medium">
+										<!-- Image -->
+										<img src="images/aie/complex-game-systems-03.png" style="width:100%">
+										<p></p>
+										<img src="images/aie/complex-game-systems-04.png" style="width:100%">
+									</div>
+									<div class="col-6 col-12-medium">
+										<span class="date"><b>December 15th, 2019</b></span>
+										<ul>
+											<li>This one was one of the more bigger challenges for this project, Figuring out how to store all the rooms into a floor and then using the player's position itself, and which room they are in, to transition to the next room they have chosen to go.</li>
+											<li>With the way the game handles the transitioning from one room to another, before the player enters a room, the game will check to see if there is another room below, left, right, or above.</li>
+											<li>If there is a room, the game will place an arrow in a random area in the room, before doing so, it would check to see if the spot it would be place at is not being occupied, if so, choose another place until it finds a spot.</li>
+											<li>The arrow would indicate which room they would move to next.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<hr class="major" />
+
+						<header class="major">
+							<h2>More Information</h2>
+						</header>
+
+						<h3>Download</h3>
+
+						<p>complex-game-systems.gb <b>32 KB</b></p>
+
+						<ul class="actions">
+							<li><a href="https://github.com/ASGitH/aie-Complex-Game-Systems/releases/download/build-00/complex-game-systems.gb" class="button">Download</a></li>
+						</ul>
+
+						<h3>Installation Instructions</h3>
+						<p>Grab a <b>Game Boy emulator</b> if you don't have one (<b><a href="http://bgb.bircd.org/">bgb</a></b> is a great emulator to use!). <b>Download the .gb file</b>, and load it in to your GameBoy emulator.</p>
+
+						<h3>Repository Link</h3>
+						<p><a href="https://github.com/ASGitH/aie-Complex-Game-Systems">https://github.com/ASGitH/aie-Complex-Game-Systems</a></p>
+
+						<h3>Tools Used</h3>
+						<p>Backgrounds/Sprites/Tiles - <a href="https://github.com/gbdk-2020/GBTD_GBMB">Game Boy Map Builder & Game Boy Tile Designer</a></p>
+						<p>Developer Kit - <a href="https://github.com/gbdk-2020/gbdk-2020">Game Boy Development Kit</a></p>
+						<p>Emulator - <a href="http://bgb.bircd.org/">BGB GameBoy Emulator</a></p>
+
+						<hr class="major" />
+
+						<header class="major">
+							<h2>Screenshots</h2>
+						</header>
+
+						<!-- Section -->
+						<section>
+							<div class="slideshow-container">
+
+							<div class="mySlides fade">
+								<img src="images/aie/complex-game-systems.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="images/aie/complex-game-systems-01.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="images/aie/complex-game-systems-02.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="images/aie/complex-game-systems-03.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="images/aie/complex-game-systems-04.png" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+							<div style="text-align:center">
+								<span class="dot" onclick="currentSlide(1)"></span>
+								<span class="dot" onclick="currentSlide(2)"></span>
+								<span class="dot" onclick="currentSlide(3)"></span>
+								<span class="dot" onclick="currentSlide(4)"></span>
+								<span class="dot" onclick="currentSlide(5)"></span>
+							</div>
+
+							<script>
+							var slideIndex = 1;
+							showSlides(slideIndex);
+
+							function plusSlides(n) {
+								showSlides(slideIndex += n);
+							}
+
+							function currentSlide(n) {
+								showSlides(slideIndex = n);
+							}
+
+							function showSlides(n) {
+								var i;
+								var slides = document.getElementsByClassName("mySlides");
+								var dots = document.getElementsByClassName("dot");
+								if (n > slides.length) {slideIndex = 1}
+								if (n < 1) {slideIndex = slides.length}
+								for (i = 0; i < slides.length; i++) {
+									slides[i].style.display = "none";
+								}
+								for (i = 0; i < dots.length; i++) {
+									dots[i].className = dots[i].className.replace(" active", "");
+								}
+								slides[slideIndex-1].style.display = "block";
+								dots[slideIndex-1].className += " active";
+							}
+							</script>
+						</section>
+
+						<hr class="major" />
+
+						<header class="major">
+							<h2>History</h2>
+						</header>
+
+						<!-- Section -->
+						<span class="date"><b>Janurary 10th, 2020</b></span>
+						<ul>
+							<li>The last update before I decided to take a different approach to the random procedurally generated floor/room.</li>
+							<li>Way things worked before was that the dungeon rooms were created by hand, then when the game began, a floor was created with different rooms placed into it.</li>
+							<li>For testing purposes, you could select the size of a floor, and if the current room you were in had another room next to it, touching this arrow would send you to the next room.</li>
+							<p></p>
+							<li>My new plan of approach would be to randomly create a room from scratch. From the room itself (each individual tile in a room), to the floor with all newly created rooms, would not only improve the quality of the game itself, but show the aspect of a complex game system.</li>
+						</ul>
+
+						<span class="date"><b>December 18th, 2019</b></span>
+						<ul>
+							<li>Logic for the background to be scrolled has been implemented.</li>
+							<li>The way it works is once the player has reached a certain distance on any edge of the screen, the game would check to see if there is anything else ahead of it.</li>
+							<li>If so, the game would scroll the next set of background sprites to display, while removing the previous ones behind them.</li>
+						</ul>
+
+						<span class="date"><b>December 15th, 2019</b></span>
+						<ul>
+							<li>This one was one of the more bigger challenges for this project, Figuring out how to store all the rooms into a floor and then using the player's position itself, and which room they are in, to transition to the next room they have chosen to go.</li>
+							<li>With the way the game handles the transitioning from one room to another, before the player enters a room, the game will check to see if there is another room below, left, right, or above.</li>
+							<li>If there is a room, the game will place an arrow in a random area in the room, before doing so, it would check to see if the spot it would be place at is not being occupied, if so, choose another place until it finds a spot.</li>
+							<li>The arrow would indicate which room they would move to next.</li>
+						</ul>
+
+					</section>
+
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div id="sidebar"> 
+				<div class="inner">
+					
+					<ul class="actions special">
+						<li><a href="index.html" class="button large">Home</a></li>
+					</ul>
+
+					<!-- Section -->
+					<section>
+						<header class="major">
+							<h2>Projects</h2>
+						</header>
+						<div class="mini-posts">
+							<h2><li><a href="aie-main-page.html">AIE</a></li></h2>
+							<h2><li><a href="game-boy-main-page.html">Game Boy</a></li></h2>
+							<h2><li><a href="unity-main-page.html">Unity</a></li></h2>
+						</div>
+					</section>
+
+					<!-- Menu -->
+					<nav id="menu">
+						<header class="major">
+							<h2>Social Media</h2>
+						</header>
+						<ul>
+							<li>
+								<span class="opener">LinkedIn</span>
+								<ul>
+									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6801676007368724480" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
+									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6801319919955804160" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
+									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6799132358747521024" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
+								</ul>
+							</li>
+							<li>
+								<span class="opener">Twitter</span>
+								<ul>
+									<a class="twitter-timeline" data-width="275" data-height="400" href="https://twitter.com/ASGDTweet?ref_src=twsrc%5Etfw">Tweets by ASGDTweet</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+
+					<!-- Section -->
+					<section>
+						<header class="major">
+							<h2>Get in Touch</h2>
+						</header>
+						<p>I'm always looking for any opportunities. Whether that would be a job in the video game industry to happily meeting and connecting with new people. Feel free to reach me and I would gladly answer. Thank you, I am very happy and excited to hear from ya!</p>
+						<ul class="contact">
+							<li class="icon solid style2 fa-envelope"><a href="mailto: 7319aserna@gmail.com">7319aserna@gmail.com</a></li>
+							<li class="icon brands style2 fa-github"><a href="https://github.com/ASGitH">ASGitH</a></li>
+							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/alexisserna/">Alexis Serna</a></li>
+							<li class="icon brands style2 fa-twitter"><a href="https://twitter.com/ASGDTweet">ASGDTweet</a></li>
+						</ul>
+						<p>Plus, if you would like to support me in my endevours...</p>
+						<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="alexisserna" data-color="#FF5F5F" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+					</section>
+				</div>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
