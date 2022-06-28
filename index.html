@@ -105,7 +105,7 @@
 	</head>
 
 	<body class="is-preload">
-
+		
 		<!-- Wrapper -->
 		<div id="wrapper">
 
@@ -115,7 +115,7 @@
 
 					<!-- Header -->
 					<header id="header">
-						<a href="#" class="logo"><strong>Alexis Serna</strong> - Game Programmer Portfolio</a>
+						<a href="index.html" class="logo"><strong>Alexis Serna</strong> - Game Programmer Portfolio</a>
 						<ul class="icons">
 							<li><a href="mailto: 7319aserna@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Envelope</span></a></li>
 							<li><a href="https://github.com/ASGitH" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
@@ -123,6 +123,128 @@
 							<li><a href="https://twitter.com/ASGDTweet" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
 						</ul>
 					</header>
+
+					<!-- Content -->
+					<section>
+						<header class="main">
+							<h1>Projects</h1>
+						</header>
+
+						<video style="width:100%;" height="475" autoplay muted controls loop>
+							<source src="videos/miscellaneous/projects-main-video.mp4" type="video/mp4">
+						</video>
+
+						<p>Welcome to the <b>Projects main page</b>! All projects can be found below organized into different types of projects. <b>Games, projects, and prototypes</b> are what you will find below.</p>
+
+						<hr class="major">
+
+						<header class="major">
+							<h2>What's New?</h2>
+						</header>
+						
+						<!-- Section -->
+						<section>
+							<div class="slideshow-container">
+
+							<div class="mySlides fade">
+								<img src="https://pbs.twimg.com/media/FTzaTBeUcAAHa8s?format=png&name=900x900" style="width:100%">
+								<!-- <div class="text">Caption Text</div> -->
+							</div>
+	
+							<div class="mySlides fade">
+								<img src="https://pbs.twimg.com/media/FPXdDUOVsAINP2F?format=jpg&name=900x900" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+
+							<div class="mySlides fade">
+								<img src="https://pbs.twimg.com/media/FINAp0KVEAImdza?format=jpg&name=900x900" style="width:100%">
+								<!-- <div class="text">Caption Two</div> -->
+							</div>
+							
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	
+							<div style="text-align:center">
+								<span class="dot" onclick="currentSlide(1)"></span>
+								<span class="dot" onclick="currentSlide(2)"></span>
+								<span class="dot" onclick="currentSlide(3)"></span>
+							</div>
+	
+							<script>
+							var slideIndex = 1;
+							showSlides(slideIndex);
+	
+							function plusSlides(n) {
+								showSlides(slideIndex += n);
+							}
+	
+							function currentSlide(n) {
+								showSlides(slideIndex = n);
+							}
+	
+							function showSlides(n) {
+								var i;
+								var slides = document.getElementsByClassName("mySlides");
+								var dots = document.getElementsByClassName("dot");
+								if (n > slides.length) {slideIndex = 1}
+								if (n < 1) {slideIndex = slides.length}
+								for (i = 0; i < slides.length; i++) {
+									slides[i].style.display = "none";
+								}
+								for (i = 0; i < dots.length; i++) {
+									dots[i].className = dots[i].className.replace(" active", "");
+								}
+								slides[slideIndex-1].style.display = "block";
+								dots[slideIndex-1].className += " active";
+							}
+							</script>
+						</section>
+
+						<h3>Unity C.C.C.</h3>
+						<span class="date"><b>July 27th, 2021 - (In development)</b></span>
+						<p>Taking a <b>concept or core idea of a game, and attempting to recreate it</b>. The idea that I decided to recreate was from a beloved game series that I hold near and dear to my heart is the <b>___ __ ______/______ series</b>. The status of the project is currently <b>in development</b>.</p>
+					</section>
+
+					<!-- Section -->
+					<section>
+						<header class="major">
+							<h2>Types of Projects</h2>
+						</header>
+						<div class="posts">
+							<article>
+								<a href="aie-main-page.html" class="image"><img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" /></a>
+								<h3>Academy of Interactive Entertainment (AIE)</h3>
+								<p>Projects created at the Academy of Interactive Entertainment from 2018 to 2020.</p>
+								
+								<li><a href="aie-artificial-intelligence-for-games-page.html">Artificial Intelligence for Games</a></li>
+								<li><a href="aie-code-design-and-data-structures-page.html">Code Design and Data Structures</a></li>
+								<li><a href="aie-complex-game-systems-page.html">Complex Game Systems</a></li>
+								<li><a href="aie-elevated-conflict-page.html">Elevated Conflict</a></li>
+								<li><a href="aie-introduction-to-cpp-page.html">Introduction to C++</a></li>
+								<li><a href="aie-the-faded-grove-page.html">The Faded Grove</a></li>
+							</article>
+							<article>
+								<a href="game-boy-main-page.html" class="image"><img src="https://images.pexels.com/photos/2263822/pexels-photo-2263822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" /></a>
+								<h3>Game Boy</h3>
+								<p>Game Boy projects created during my free time or during game jams.</p>
+								
+								<li><a href="game-boy-action-adventure-template-page.html">Action Adventure Template</a></li>
+								<li><a href="game-boy-retro-jam-2021-page.html">Retro Jam 2021</a></li>
+								<li><a href="game-boy-rolling-on-page.html">Rolling On</a></li>
+							</article>
+							<article>
+								<a href="unity-main-page.html" class="image"><img src="https://elchapuzasinformatico.com/wp-content/uploads/2018/10/Unity-Engine-Logo-740x416.jpg" alt="" /></a>
+								<h3>Unity</h3>
+								<p>Showcase of projects created using the Unity game engine.</p>
+								
+								<li><a href="unity-cabaret-club-czar-page.html">Unity C.C.C.</a></li>
+								<li><a href="unity-day-of-juniper-page.html">Day of Juniper</a></li>
+								<li><a href="unity-dFTR-page.html">dFTR</a></li>
+								<li><a href="unity-the-bigger-picture-page.html">The Bigger Picture</a></li>
+								<li><a href="unity-tronpical-page.html">Tronpical</a></li>
+							</article>
+						</div>
+					</section>
 
 					<!-- Banner -->
 					<section id="banner">
@@ -140,116 +262,6 @@
 						<span class="image object">
 							<img src="images/miscellaneous/pic.png" alt="" />
 						</span>
-					</section>
-
-					<!-- Section -->
-					<section>
-						<header class="major">
-							<h2>Check these Out!</h2>
-						</header>
-						
-						<div class="box alt">
-							<div class="row gtr-50 gtr-uniform">
-								<div class="col-4"><span class="image fit"><a href="unity-day-of-juniper-page.html"><img src="images/unity/day-Of-Juniper.png" alt="" /></a><h3>Day of Juniper</h4></span></div>
-								<div class="col-4"><span class="image fit"><a href="game-boy-retro-jam-2021-page.html"><img src="images/game-boy/retro-jam-2021.png" alt="" /></a><h3>Retro Jam 2021</h4></span></div>
-								<div class="col-4"><span class="image fit"><a href="game-boy-rolling-on-page.html"><img src="images/game-boy/rolling-on.png" alt="" /></a><h3>Rolling On</h4></span></div>
-								<!-- Break -->
-								<div class="col-4"><span class="image fit"><a href="unity-the-bigger-picture-page.html"><img src="images/unity/the-bigger-picture.png" alt="" /></a><h3>The Bigger Picture</h4></span></div>
-								<div class="col-4"><span class="image fit"><a href="aie-the-faded-grove-page.html"><img src="https://img.itch.zone/aW1hZ2UvNTcyMTA1LzM3NDgxNzEucG5n/794x1000/T3WCz9.png" alt="" /></a><h3>The Faded Grove</h4></span></div>
-								<div class="col-4"><span class="image fit"><a href="unity-tronpical-page.html"><img src="images/unity/tronpical.png" alt="" /></a><h3>Tronpical</h4></span></div>
-							</div>
-						</div>
-					</section>
-
-					<!-- Section -->
-					<section>
-						<header class="major">
-							<h2>Types of Projects</h2>
-						</header>
-						<div class="posts">
-							<article>
-								<a href="aie-main-page.html" class="image"><img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" /></a>
-								<h3>Academy of Interactive Entertainment (AIE)</h3>
-								<p>Projects created at the Academy of Interactive Entertainment from 2018 to 2020.</p>
-								<ul class="actions">
-									<li><a href="aie-main-page.html" class="button">Learn More</a></li>
-								</ul>
-							</article>
-							<article>
-								<a href="game-boy-main-page.html" class="image"><img src="https://images.pexels.com/photos/2263822/pexels-photo-2263822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" /></a>
-								<h3>Game Boy</h3>
-								<p>Game Boy projects created during my free time or during game jams.</p>
-								<ul class="actions">
-									<li><a href="game-boy-main-page.html" class="button">Learn More</a></li>
-								</ul>
-							</article>
-							<article>
-								<a href="unity-main-page.html" class="image"><img src="https://elchapuzasinformatico.com/wp-content/uploads/2018/10/Unity-Engine-Logo-740x416.jpg" alt="" /></a>
-								<h3>Unity</h3>
-								<p>Showcase of projects created using the Unity game engine.</p>
-								<ul class="actions">
-									<li><a href="unity-main-page.html" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-					</section>
-
-				</div>
-			</div>
-
-			<!-- Sidebar -->
-			<div id="sidebar"> 
-				<div class="inner">
-					
-					<!-- Section -->
-					<section>
-						<header class="major">
-							<h2>Projects</h2>
-						</header>
-						<div class="mini-posts">
-							<h2><li><a href="aie-main-page.html">AIE</a></li></h2>
-							<h2><li><a href="game-boy-main-page.html">Game Boy</a></li></h2>
-							<h2><li><a href="unity-main-page.html">Unity</a></li></h2>
-						</div>
-					</section>
-
-					<!-- Menu -->
-					<nav id="menu">
-						<header class="major">
-							<h2>Social Media</h2>
-						</header>
-						<ul>
-							<li>
-								<span class="opener">LinkedIn</span>
-								<ul>
-									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6801676007368724480" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
-									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6801319919955804160" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
-									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6799132358747521024" height="400" style="width:100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <p></p>
-								</ul>
-							</li>
-							<li>
-								<span class="opener">Twitter</span>
-								<ul>
-									<a class="twitter-timeline" data-width="device-width" data-height="400" href="https://twitter.com/ASGDTweet?ref_src=twsrc%5Etfw">Tweets by ASGDTweet</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-								</ul>
-							</li>
-						</ul>
-					</nav>
-
-					<!-- Section -->
-					<section>
-						<header class="major">
-							<h2>Get in Touch</h2>
-						</header>
-						<p>I'm always looking for any opportunities. Whether that would be a job in the video game industry to happily meeting and connecting with new people. Feel free to reach me and I would gladly answer. Thank you, I am very happy and excited to hear from ya!</p>
-						<ul class="contact">
-							<li class="icon solid style2 fa-envelope"><a href="mailto: 7319aserna@gmail.com">7319aserna@gmail.com</a></li>
-							<li class="icon brands style2 fa-github"><a href="https://github.com/ASGitH">ASGitH</a></li>
-							<li class="icon brands style2 fa-linkedin"><a href="https://www.linkedin.com/in/alexisserna/">Alexis Serna</a></li>
-							<li class="icon brands style2 fa-twitter"><a href="https://twitter.com/ASGDTweet">ASGDTweet</a></li>
-						</ul>
-						<p>Plus, if you would like to support me in my endevours...</p>
-						<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="alexisserna" data-color="#FF5F5F" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 					</section>
 
 				</div>
